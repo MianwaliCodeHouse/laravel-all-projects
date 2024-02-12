@@ -1,0 +1,55 @@
+table{
+  border: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: orangered;
+}
+.btn{
+  background-color: #131856;
+  color: white;
+  padding: 0.3rem 1rem;
+}
+input,button{
+  padding: 0.3rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 3px;
+  
+}
+fieldset{
+  padding: 1rem 3rem;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+button,input[type="submit"]{
+  margin-top: 2rem;
+}
+button{
+  
+  margin-bottom: 5rem;
+}
+td,th{
+  padding: 1rem;
+  font-size: 1.05rem;
+}
+tr:nth-child(2n){
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
+tr:nth-child(2n+1){
+  background-color: rgb(27, 27, 27);
+  color: white;
+}

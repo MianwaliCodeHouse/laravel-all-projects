@@ -1,0 +1,50 @@
+main form{
+    background-color: rgba(255, 255, 255, 0.261);
+    max-width: 400px;
+    width: 80%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+form input{
+    color: black;
+}
+main form .one{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 14, 14);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+main form h1{
+    margin-bottom: 2rem;
+}
+main form input{
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    background-color: rgb(24, 23, 23);
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:600px){
+    form .one{
+        display: none;
+    }
+}

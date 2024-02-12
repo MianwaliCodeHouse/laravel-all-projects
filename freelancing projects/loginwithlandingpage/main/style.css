@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    color: white;
+}
+body{
+    background-color: rgb(37, 35, 35);
+}
+html{
+    font-size: 90%;
+}
+header{
+    padding: 2rem;
+    background-color: rgb(44, 42, 40);
+    box-shadow: 0px 2px 10px 1px rgba(255, 255, 255, 0.136);
+}
+header .nav2{
+    padding-top: 2rem;
+    text-align: center;
+}
+header .nav2 a{
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    background-color: rgba(103, 103, 103, 0.458);
+    border-radius: 1rem;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+header nav .marquee{
+    width: 50%;
+    padding: 1rem 0;
+}
+header nav .n a{
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 1rem;
+}
+header nav .n a:hover{
+    background-color: rgb(160, 104, 0);
+}
+footer{
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(29, 28, 27);
+}
+footer .foot3 a{
+    text-decoration: none;
+    margin-right: 1rem;
+    background-color: rgba(255, 255, 255, 0.168);
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+@media(max-width:800px){
+    header nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav .n3{
+        margin-top: 1rem;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer .foot3{
+        margin-top: 2rem;
+    }
+}

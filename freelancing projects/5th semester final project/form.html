@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UOM | Admission Form</title>
+  <link rel="shortcut icon" href="asset/uom-logo.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+  <div class="form">
+    <nav>
+      <h1>Admission Form</h1>
+    </nav>
+    <form action="form.php" method="post">
+      <h3>Full Name</h3>
+      <input type="text" name="name" required>
+      <h3>Father Name</h3>
+      <input type="text" name="fname" required>
+      <h3>Sex</h3>
+      <select name="Gender" id="">
+        <option value="">--Select Gender--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <h3>College/institute Name</h3>
+      <input type="text" name="collegename" required>
+      <h3>Obtained Marks</h3>
+      <input type="number" name="obtmarks" id="" required>
+      <h3>Total Marks</h3>
+      <input type="number" name="tmarks" id="" required>
+      <h3>Board</h3>
+      <select name="board" id="">
+        <option value="">--Select Board--</option>
+        <option value="Sargodha">Sargodha</option>
+        <option value="lahore">lahore</option>
+        <option value="karachi">karachi</option>
+        <option value="quata">quata</option>
+      </select>
+      <h3>Chose BS Program</h3>
+      <select name="BSprogram" id="">
+        <option value="">--Select BS Program--</option>
+        <option value="BS Computer Sceince">BS Computer Sceince</option>
+        <option value="BS IT">BS IT</option>
+        <option value="BS Software Enginering">BS Software Enginering</option>
+        <option value="BS Data Sceince">BS Data Sceince</option>
+      </select>
+      <h3>Phone Number</h3>
+      <input type="text" name="phone" required>
+      <h3>Email Address</h3>
+      <input type="email" name="email" required>
+      <h3>Home Address</h3>
+      <input type="text" name="address" required>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
